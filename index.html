@@ -51,7 +51,7 @@
     }
 
     .jump {
-      animation: jump 10s ease infinite alternate;
+      animation: jump 0.3s ease infinite alternate;
     }
 
     @keyframes jump {
@@ -79,7 +79,7 @@
 
   <script>
     function sayYes() {
-      document.getElementById("message").innerHTML = "YAY!! You made the bear and my heart happy! 💕";
+      document.getElementById("message").innerHTML ="YAY!! You made the bear and my heart happy! 💕";
       const bear = document.getElementById("bear");
       bear.style.display = "block";
       bear.classList.add("jump");
